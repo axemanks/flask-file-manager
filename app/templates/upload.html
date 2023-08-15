@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Flask file uploads - index.html</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        <!-- hiden_tag holds the token -->
+        {{form.hidden_tag()}}
+        <!-- Display the choose file button -->
+        {{form.file}}
+        <!-- Display the submit button -->
+        {{form.submit}}
+    </form>
+    
+</body>
+</html>

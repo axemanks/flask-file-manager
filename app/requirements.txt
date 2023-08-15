@@ -1,0 +1,6 @@
+# Requirements specifically for the file manager
+flask
+flask_wtf
+wtforms
+
+
